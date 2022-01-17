@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #363636;
+    height: 60px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar a{
+    margin: 0 30;
+    font-size: 20;
+    color: #D6D6D6;
+    
+}
+
+.navbar a:hover{
+    color: white;   
+}
+
+@media only screen and (max-width: 600px){
+    .navbar a{
+        margin:0 10
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .navbar a{
+        font-size: 12;
+        margin:0 10
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #2C2C2C;
+    height: 500px;
+}
+
+.home-title{
+    text-align: center ;
+
+}
+
+.home-title h1{
+    font-size: 60;
+    margin-top: 130;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.home-title h2{
+    font-size: 50;
+    margin-top: -10;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+.home-decoy{
+    width: 50%;   
+}
+
+@media only screen and (max-width: 600px){
+    .home-decoy{
+        width: 0;
+    }
+    .home-title{
+        width: 100%;
+    }
+    .home-title h1{
+        font-size: 50;
+    }
+    .home-title h2{
+        font-size: 30;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .home-decoy{
+        width: 0;
+    }
+    .home-title{
+        width: 100%;
+    }
+    .home-title h1{
+        font-size: 60;
+    }
+    .home-title h2{
+        font-size: 40;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .home-decoy{
+        width: 0;
+    }
+    .home-title{
+        width: 100%;
+    }
+    .home-title h1{
+        font-size: 40;
+    }
+    .home-title h2{
+        font-size: 25;
+    }
+}
+
+
+
+
+
+.about{
+
+    background: #323232;
+
+
+}
+
+.about-title{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.about-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 30;
+    font-size: 70;
+}
+
+.about-info{
+    padding-top: 40;
+    font-size: 25;
+    text-align: center;
+}
+
+.about-info p{
+    font-family: 'Titillium Web', sans-serif;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 100;
+
+}
+
+@media only screen and (max-width:580px){
+    .about-title h1{
+        font-size: 60;
+    }
+
+    .about-info p{
+        font-size: 20;
+        padding-left: 10;
+        padding-right: 10;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .about-info{
+        font-size: 20;
+    }
+
+    .about-info p{
+        padding-left: 10;
+        padding-right: 10;
+
+
+    }
+}
+
+@media only screen and (max-width:700px){
+    .about-info{
+        font-size: 25;
+    }
+
+    .about-info p{
+        padding-left: 10;
+        padding-right: 10;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+    margin-top: 0;
+    background: #2C2C2C;
+
+}
+
+.projects-title{
+    width: 100%;
+    height: 24%;
+    text-align: center;
+}
+
+.projects-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 30;
+    font-size: 70;
+}
+.projects-title a{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 5;
+    font-size: 30;
+}
+.projects-title a:hover{
+    font-size: 32;
+    color: #1D9ED6;
+}
+
+.projects-info{
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+
+.projects-info h2{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 60;
+    padding-top: 20;
+    
+    font-size: 35px;
+
+}
+
+@media only screen and (max-width:600px){
+    .projects-title h1{
+        font-size: 50;
+    }
+
+    .projects-title a{
+        font-size: 20;
+    }
+    .projects-title a:hover{
+        font-size: 22;
+    }
+
+    .projects-info h2{
+        font-size: 20;
+        padding-left: 20;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .projects-title h1{
+        font-size: 55;
+    }
+
+    .projects-title a{
+        font-size: 22;
+    }
+    .projects-title a:hover{
+        font-size: 25;
+    }
+
+    .projects-info h2{
+        font-size: 25;
+        padding-left: 20;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.achivement{
+    margin-top: 0%;
+    background: #323232;
+    
+
+}
+
+.achivement-title{
+    width: 100%;
+    height: 24%;
+    text-align: center;
+}
+
+.achivement-title h1{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 30;
+    font-size: 70;
+}
+
+.achivement-title a{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 30;
+    font-size: 30;
+}
+.achivement-title a:hover{
+    font-size: 32;
+    color: #1D9ED6;
+}
+
+.achivement-info{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.achivement-info h2{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 60;
+    padding-top: 20;
+    font-size: 35px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .achivement-title h1{
+        font-size: 50;
+    }
+
+    .achivement-title a{
+        font-size: 20;
+    }
+    .achivement-title a:hover{
+        font-size: 22;
+    }
+
+    .achivement-info h2{
+        padding-left: 20;
+        font-size: 25;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .achivement-title h1{
+        font-size: 60;
+    }
+
+    .achivement-title a{
+        font-size: 25;
+    }
+    .achivement-title a:hover{
+        font-size: 27;
+    }
+
+    .achivement-info h2{
+        padding-left: 20;
+        font-size: 27;
+    }
+}
+
+
+
+
+
+
+
+
+
+.certificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+    
+    padding-bottom: 50px;
+}
+
+.certificate img{
+    padding-top: 30px;
+}
+
+
